@@ -35,8 +35,12 @@
 
 // console.log(getCount('abriiaca  dabra"'));
 
-function howMany(...args) {
-    return "You have passed " + args.length + " arguments.";
-  }
-  console.log(howMany(0, 1, 2));
-  console.log(howMany("string", null, [1, 2, 3], { }));
+
+
+// function solution(nums){
+//     if(nums == undefined){
+//       return []
+//     } return  nums.length !== 0 ? nums.sort((a, b) => a - b) : []
+//  }
+
+//  console.log(solution([1,5,8,9,41,1,52,]));
