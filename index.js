@@ -44,3 +44,38 @@
 //  }
 
 //  console.log(solution([1,5,8,9,41,1,52,]));
+
+
+// function zeroArray(m, n) {
+//   let newArray = [];
+//   let row = [];
+//   for (let i = 0; i < n; i++) {
+//     for (let j = 0; j < m; j++) {
+//       row.push(0);
+//     }
+
+//     newArray.push(row);
+//   }
+//   return newArray;
+// }
+
+// let matrix = zeroArray(2, 1);
+// console.log(matrix);
+
+function fizzbuzz(n) {
+  let arrCheck = [];
+  for (let i = 1; i <= n; i++) {
+    if (i % 5 == 0 && i % 3 == 0) {
+      arrCheck.push("FizzBuzz");
+    } else if (i % 5 == 0) {
+      arrCheck.push("Buzz");
+    } else if (i % 3 == 0) {
+      arrCheck.push("Fizz");
+    } else {
+      arrCheck.push(i);
+    }
+  }
+  return arrCheck;
+}
+
+console.log(fizzbuzz(30));
