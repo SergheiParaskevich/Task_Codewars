@@ -62,20 +62,24 @@
 // let matrix = zeroArray(2, 1);
 // console.log(matrix);
 
-function fizzbuzz(n) {
-  let arrCheck = [];
-  for (let i = 1; i <= n; i++) {
-    if (i % 5 == 0 && i % 3 == 0) {
-      arrCheck.push("FizzBuzz");
-    } else if (i % 5 == 0) {
-      arrCheck.push("Buzz");
-    } else if (i % 3 == 0) {
-      arrCheck.push("Fizz");
-    } else {
-      arrCheck.push(i);
-    }
-  }
-  return arrCheck;
-}
+// function fizzbuzz(n) {
+//   let arrCheck = [];
+//   for (let i = 1; i <= n; i++) {
+//     if (i % 5 == 0 && i % 3 == 0) {
+//       arrCheck.push("FizzBuzz");
+//     } else if (i % 5 == 0) {
+//       arrCheck.push("Buzz");
+//     } else if (i % 3 == 0) {
+//       arrCheck.push("Fizz");
+//     } else {
+//       arrCheck.push(i);
+//     }
+//   }
+//   return arrCheck;
+// }
 
-console.log(fizzbuzz(30));
+// console.log(fizzbuzz(30));
+
+const isSquare = (n) => Math.sqrt(n) % 1 == 0 ? true : false ;
+
+console.log(isSquare(-1));
