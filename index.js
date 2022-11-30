@@ -80,6 +80,13 @@
 
 // console.log(fizzbuzz(30));
 
-const isSquare = (n) => Math.sqrt(n) % 1 == 0 ? true : false ;
+// const isSquare = (n) => Math.sqrt(n) % 1 == 0 ? true : false ;
 
-console.log(isSquare(-1));
+// console.log(isSquare(-1));
+
+
+// const filter_list = (l) => l.filter((item) => typeof item == 'number');
+
+ 
+
+
