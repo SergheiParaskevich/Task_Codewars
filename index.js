@@ -86,3 +86,28 @@
 
 
 // const filter_list = (l) => l.filter((item) => typeof item == 'number');
+
+// function squareDigits(num) {
+//   arrSum = [];
+//   const newArr = num.toString().split("");
+
+//   for (let i = 0; i < newArr.length; i++) {
+//     arrSum.push(Math.pow(newArr[i], 2));
+//   }
+//   return  typeof +arrSum.join("");
+// }
+ 
+
+const min = (list) => {
+    var num1 = list.sort((a, b) => b - a)
+       return num1[0]
+   }
+   
+   const max = (list) => {
+     var num2 = list.sort((a, b) => a - b)
+       return num2[0]
+   }
+
+ 
+
+
