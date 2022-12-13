@@ -98,16 +98,61 @@
 // }
  
 
-const min = (list) => {
-    var num1 = list.sort((a, b) => b - a)
-       return num1[0]
-   }
+// const min = (list) => {
+//     var num1 = list.sort((a, b) => b - a)
+//        return num1[0]
+//    }
    
-   const max = (list) => {
-     var num2 = list.sort((a, b) => a - b)
-       return num2[0]
-   }
+//    const max = (list) => {
+//      var num2 = list.sort((a, b) => a - b)
+//        return num2[0]
+//    }
+
+// const result = {
+//   success: ["max-length", "no-amd", "prefer-arrow-functions"],
+//   failure: ["no-var", "var-on-top", "linebreak"],
+//   skipped: ["no-extra-semi", "no-dup-keys"],
+// };
+// function makeList(arr) {
+//   let a = `<li class="text-warning">${arr[0]}</li>`;
+//   let b = `<li class="text-warning">${arr[1]}</li>`;
+//   let c = `<li class="text-warning">${arr[2]}</li>`;
+//   const failureItems = [];
+//   failureItems.push(
+//     a, b, c
+//   )
+
+//   return failureItems;
+// }
+
+// console.log(makeList(result.failure));
 
  
 
 
+// function colourAssociation(array){
+//   return array.map((item) => item.split(''))
+// }
+// console.log(colourAssociation([["red", "energy"],["yellow", "creativity"],["brown" , "friendly"],["green", "growth"]]));
+
+const removeSmallest = (numbers) => {
+  const newArr = [];
+  
+  if (numbers.length < 0) {
+    return [];
+  } else {
+    const findIndef = numbers.indexOf(Math.min(...numbers));
+    for(let i = 0; i < numbers.length; i++){
+     
+      
+     newArr.push(numbers.i)
+      
+    }
+    console.log(newArr);
+   
+    
+    
+  }
+};
+
+console.log(removeSmallest([ 173, 180, 164, 270, 127, 62, 234, 153, 252, 316, 244, 385, 175 ]));
