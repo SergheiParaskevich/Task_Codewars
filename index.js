@@ -135,24 +135,31 @@
 // }
 // console.log(colourAssociation([["red", "energy"],["yellow", "creativity"],["brown" , "friendly"],["green", "growth"]]));
 
-const removeSmallest = (numbers) => {
-  const newArr = [];
-  
-  if (numbers.length < 0) {
-    return [];
-  } else {
-    const findIndef = numbers.indexOf(Math.min(...numbers));
-    for(let i = 0; i < numbers.length; i++){
-     
-      
-     newArr.push(numbers.i)
-      
-    }
-    console.log(newArr);
-   
-    
-    
-  }
-};
+// const removeSmallest = (numbers) => {
+//   const newArr = [];
 
-console.log(removeSmallest([ 173, 180, 164, 270, 127, 62, 234, 153, 252, 316, 244, 385, 175 ]));
+//   if (numbers.length < 0) {
+//     return [];
+//   } else {
+//     const findIndef = numbers.indexOf(Math.min(...numbers));
+//     for (let i = 0; i < numbers.length; i++) {
+//       newArr.push(numbers[i]);
+//     }
+//    return newArr.filter((elem, index) => index !== findIndef)
+//   }
+  
+// };
+
+// console.log(
+//   removeSmallest([
+//     173, 180, 164, 270, 127, 62, 234, 153, 252, 316, 244, 385, 175,
+//   ])
+// );
+
+
+function derDieDas(wort:string){
+const buchstabeArr = ['a','e','i','o','u','ö','ü','ä'];
+    return wort.split(' ')
+}
+
+console.log(derDieDas('hello'));
