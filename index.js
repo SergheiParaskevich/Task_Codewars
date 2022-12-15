@@ -157,9 +157,31 @@
 // );
 
 
-function derDieDas(wort:string){
-const buchstabeArr = ['a','e','i','o','u','ö','ü','ä'];
-    return wort.split(' ')
+// function derDieDas(wort) {
+//   let sum = 0;
+//   const buchstabeArr = ["a", "e", "i", "o", "u", "ö", "ü", "ä"];
+//   const wortToArr = wort.toLowerCase().split("");
+//   for (let i = 0; i < buchstabeArr.length; i++) {
+//     for (let j = 0; j < wortToArr.length; j++) {
+//       if (buchstabeArr[i] === wortToArr[j]) {
+//         sum++;
+//       }
+//     }
+//   }
+//   if (sum < 2) {
+//     return `${"das"} ${wort}`;
+//   } else if (sum > 3) {
+//     return `${"der"} ${wort}`;
+//   } else {
+//     return `${"die"} ${wort}`;
+//   }
+// }
+
+// console.log(derDieDas("hHaH"));
+function stray(numbers) {
+ if(numbers[0] === numbers[numbers.length - 1]){
+  return numbers.find(elem => elem !== numbers[0])
+ }return numbers.find( elem => elem !== numbers[1])
 }
 
-console.log(derDieDas('hello'));
+console.log(stray([2, 2, 1]));
