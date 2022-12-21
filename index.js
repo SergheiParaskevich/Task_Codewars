@@ -178,10 +178,20 @@
 // }
 
 // console.log(derDieDas("hHaH"));
-function stray(numbers) {
- if(numbers[0] === numbers[numbers.length - 1]){
-  return numbers.find(elem => elem !== numbers[0])
- }return numbers.find( elem => elem !== numbers[1])
+// function stray(numbers) {
+//  if(numbers[0] === numbers[numbers.length - 1]){
+//   return numbers.find(elem => elem !== numbers[0])
+//  }return numbers.find( elem => elem !== numbers[1])
+// }
+
+// console.log(stray([2, 2, 1]));
+
+
+function findShort(s){
+
+   let toSplit = s.split(' ')
+     return toSplit.reduce((a,c) => (c.length < a.length ? a = c : a, a), toSplit[0]).length
 }
 
-console.log(stray([2, 2, 1]));
+console.log(findShort("bitcoin take over the world maybe who knows perhaps"));
+
