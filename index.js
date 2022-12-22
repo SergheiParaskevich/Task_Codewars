@@ -187,11 +187,26 @@
 // console.log(stray([2, 2, 1]));
 
 
-function findShort(s){
+// function findShort(s){
 
-   let toSplit = s.split(' ')
-     return toSplit.reduce((a,c) => (c.length < a.length ? a = c : a, a), toSplit[0]).length
-}
+//    let toSplit = s.split(' ')
+//      return toSplit.reduce((a,c) => (c.length < a.length ? a = c : a, a), toSplit[0]).length
+// }
 
-console.log(findShort("bitcoin take over the world maybe who knows perhaps"));
+// console.log(findShort("bitcoin take over the world maybe who knows perhaps"));
 
+function highAndLow(numbers){
+  
+  let array = numbers.split(' ').map(elem => +elem).sort((a,b) => a - b).reverse();
+
+    
+ let toArr =  [array[0],array[array.length-1]];
+   
+  return toArr.join(' ')
+  }
+
+  console.log(highAndLow("1 9 3 4 -5"));
+
+
+  const arr = [1, 2, 3]
+  console.log(...arr)
