@@ -195,18 +195,30 @@
 
 // console.log(findShort("bitcoin take over the world maybe who knows perhaps"));
 
-function highAndLow(numbers){
+// function highAndLow(numbers){
   
-  let array = numbers.split(' ').map(elem => +elem).sort((a,b) => a - b).reverse();
+//   let array = numbers.split(' ').map(elem => +elem).sort((a,b) => a - b).reverse();
 
     
- let toArr =  [array[0],array[array.length-1]];
+//  let toArr =  [array[0],array[array.length-1]];
    
-  return toArr.join(' ')
+//   return toArr.join(' ')
+//   }
+
+//   console.log(highAndLow("1 9 3 4 -5"));
+
+
+//   const arr = [1, 2, 3]
+//   console.log(...arr)
+
+function lastSurvivor(letters, coords) {
+  let toString = letters.split("");
+
+  for (let i = 0; i < coords.length; i++) {
+    toString.splice(coords[i], 1);
+    
   }
+  return toString.toString()
+}
 
-  console.log(highAndLow("1 9 3 4 -5"));
-
-
-  const arr = [1, 2, 3]
-  console.log(...arr)
+console.log(lastSurvivor("kbc", [1, 1]));
