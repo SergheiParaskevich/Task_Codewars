@@ -211,14 +211,92 @@
 //   const arr = [1, 2, 3]
 //   console.log(...arr)
 
-function lastSurvivor(letters, coords) {
-  let toString = letters.split("");
+// function lastSurvivor(letters, coords) {
+//   let toString = letters.split("");
 
-  for (let i = 0; i < coords.length; i++) {
-    toString.splice(coords[i], 1);
+//   for (let i = 0; i < coords.length; i++) {
+//     toString.splice(coords[i], 1);
     
-  }
-  return toString.toString()
-}
+//   }
+//   return toString.toString()
+// }
 
-console.log(lastSurvivor("kbc", [1, 1]));
+// console.log(lastSurvivor("kbc", [1, 1]));
+
+
+
+
+// function  args_count ([arguments]) {
+//  console.log(arguments.length()); 
+// }
+
+// args_count(1,2,3)
+
+// let user = {
+//   name: "Serhei",
+//   age: 33,
+//   adress: {
+//     city: {
+//       title: "Worms",
+//     },
+//   },
+// };
+
+
+
+// console.log( user["adress"]['city']['title']);
+// console.log(user.adress.city.title);
+
+
+// let city = {};
+// city.title = 'Berlin'
+// city['title'] = 'worms'
+// city['strase'] = 'wolfram'
+
+// console.log(city);
+
+// const name = ['Serg', 'Alexa', 'Elina', 'Ewa']
+// console.log(name['map']((elem) => elem));
+
+
+// const newObj = {
+//     '0': 'Molotok',
+//     '1': 'Kuwalda',
+//     '2': 'Ploskagubci'
+// }
+
+// console.log(newObj[0]);
+
+
+// const sum = (...num) => {
+//   console.log(num.reduce((acc, num) => acc + num));
+// }
+
+// sum(1,2,3,4)
+
+
+
+// function multiplyAll (arrNumber)  {
+//    return function (multiply_all){
+//    return arrNumber.map(elem => elem * multiply_all)
+//    multiply_all(2)
+//    }
+   
+// }
+// console.log(multiplyAll([1,2,3]) );
+
+
+// function test (func) {
+//   console.log(func());
+// }
+// test()
+
+// const sumOfMinimums = (arr) => {
+//   let a = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     a += Math.min(...arr[i]);
+//   }
+//   return a;
+// };
+
+// console.log(sumOfMinimums([[11, 12, 14, 54], [67, 89, 90, 56], [7, 9, 4, 3], [9, 8, 6, 7]]));
