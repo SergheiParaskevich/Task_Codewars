@@ -300,3 +300,29 @@
 // };
 
 // console.log(sumOfMinimums([[11, 12, 14, 54], [67, 89, 90, 56], [7, 9, 4, 3], [9, 8, 6, 7]]));
+
+// const covfefe = (str) => {
+//     if (!str.includes("coverage")) {
+//       return str + " covfefe";
+//     } else {
+//       let toarr = str.split(" ");
+//       toarr.forEach((el, index) =>
+//         el === "coverage" ? (toarr[index] = "covfefe") : el
+//       );
+//       return toarr.join(" ");
+//     }
+//   }
+
+
+
+
+// function minSum(arr) {
+//   let a = 0;
+
+//   for (let i = arr.length; (i = arr.length); i++) {
+//     a += arr.sort((a, b) => a - b).pop() * arr.shift();
+//   }
+//  return a 
+// }
+
+// console.log(minSum([5,4,2,3]));
