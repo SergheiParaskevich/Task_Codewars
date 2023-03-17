@@ -326,3 +326,12 @@
 // }
 
 // console.log(minSum([5,4,2,3]));
+
+
+// function maxProduct(numbers, size) {
+//   return numbers
+//     .sort((a, b) => b - a)
+//     .slice(0, size)
+//     .reduce((acc, item) => acc * item);
+// }
+//  console.log( maxProduct([14,29,-28,39,-16,-48], 4));
