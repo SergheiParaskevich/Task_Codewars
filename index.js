@@ -335,3 +335,23 @@
 //     .reduce((acc, item) => acc * item);
 // }
 //  console.log( maxProduct([14,29,-28,39,-16,-48], 4));
+
+// function divCon(x) {
+//   let sumString = 0;
+//   let sumNumber = 0;
+//   for (let i = 0; i < x.length; i++) {
+//     if (typeof x[i] == "string") {
+//       sumString = sumString + parseInt(x[i]);
+//     } else {
+//       sumNumber += x[i];
+//     }
+//   }
+//   return typeof sumNumber - sumString;
+// }
+
+// console.log(divCon(["3", 6, 6, 0, "5", 8, 5, "6", 2, "0"]));
+
+
+var getMilitaryTime = function(input) {
+    // code solution here
+  };
