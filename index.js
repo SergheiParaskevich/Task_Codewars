@@ -352,6 +352,16 @@
 // console.log(divCon(["3", 6, 6, 0, "5", 8, 5, "6", 2, "0"]));
 
 
-var getMilitaryTime = function(input) {
-    // code solution here
-  };
+// let mispelled = function (word1, word2) {
+//   let a = 0;
+
+//   for (let i = 0; i < word1.length; i++) {
+//     if (word1[i] !== word2[i]) {
+//       a += 1;
+//     }
+//   }
+
+//   return a <= 1 ? true : false;
+// };
+
+// console.log(mispelled("versed", "v5rsed"));
