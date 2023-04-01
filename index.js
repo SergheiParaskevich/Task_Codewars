@@ -365,3 +365,15 @@
 // };
 
 // console.log(mispelled("versed", "v5rsed"));
+
+// function consecutive(arr) {
+//     arr.length ? Math.max(...arr) - Math.min(...arr) + 1 - arr.length : 0
+    
+//        }
+//        console.log(consecutive([4,8,6]));
+
+function largest(n, array) {
+    // Find the n highest elements in a list
+    return array.sort((a,b) => b-a).slice(0, n).reverse()
+  }
+  console.log(largest(2,[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]));
