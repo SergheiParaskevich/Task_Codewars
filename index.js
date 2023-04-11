@@ -372,8 +372,45 @@
 //        }
 //        console.log(consecutive([4,8,6]));
 
-function largest(n, array) {
-    // Find the n highest elements in a list
-    return array.sort((a,b) => b-a).slice(0, n).reverse()
-  }
-  console.log(largest(2,[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]));
+// function largest(n, array) {
+//     // Find the n highest elements in a list
+//     return array.sort((a,b) => b-a).slice(0, n).reverse()
+//   }
+//   console.log(largest(2,[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]));
+
+
+// const count = true;
+
+// let countValue = new Promise(function (resolve, reject) {
+//     if (count) {
+//       setTimeout(() => {resolve("There is a count value.");}
+        
+//       )
+        
+//     } else {
+//         reject("There is no count value");
+//     }
+// });
+
+// console.log(countValue);
+
+
+// const delay = (ms) => {
+//   return new Promise((res)=> {
+// setTimeout(res,ms)
+//   })
+// }
+
+// delay(2000).then(()=> {
+//   console.log('done');
+// })
+
+
+// function isPowerOfTwo(n) {
+//   return Number.isInteger(Math.log2(n));
+// }
+
+// function sortByLength(array) {
+//   return array.sort((a, b) => a.length - b.length);
+// }
+
