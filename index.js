@@ -414,3 +414,23 @@
 //   return array.sort((a, b) => a.length - b.length);
 // }
 
+// function noOdds( values ){
+//   return values.filter(el => el%2 == 0)// Return all non-odd values
+// }
+
+// console.log( noOdds( [0,1,2,3]));
+
+// function trim(str, size) {
+// if(size <= 3){
+//   return str.slice(0,str.length - size)+('...')  
+// }else if(str.length < size){
+//   return str
+// }else if(str.length > size){
+//   return str.slice(0,size - 3)+('...')
+// }
+// }
+
+// console.log(trim("Cqz yU Kk", 2));
+
+//  let a= "He"
+//  console.log(a.slice(0,1));
