@@ -7,10 +7,6 @@
 
 // console.log(isAnagram('Test', 'SeTt'))
 
-
-
-
-
 // const getCount = (str) => {
 //         let sum = 0;
 //    const strToArray = str.split('');
@@ -27,15 +23,12 @@
 //        }else if(strToArray[i] == 'u'){
 //         sum++;
 //        }else{
-        
+
 //        }
-        
-   
+
 // }return sum}
 
 // console.log(getCount('abriiaca  dabra"'));
-
-
 
 // function solution(nums){
 //     if(nums == undefined){
@@ -44,7 +37,6 @@
 //  }
 
 //  console.log(solution([1,5,8,9,41,1,52,]));
-
 
 // function zeroArray(m, n) {
 //   let newArray = [];
@@ -84,7 +76,6 @@
 
 // console.log(isSquare(-1));
 
-
 // const filter_list = (l) => l.filter((item) => typeof item == 'number');
 
 // function squareDigits(num) {
@@ -96,13 +87,12 @@
 //   }
 //   return  typeof +arrSum.join("");
 // }
- 
 
 // const min = (list) => {
 //     var num1 = list.sort((a, b) => b - a)
 //        return num1[0]
 //    }
-   
+
 //    const max = (list) => {
 //      var num2 = list.sort((a, b) => a - b)
 //        return num2[0]
@@ -127,9 +117,6 @@
 
 // console.log(makeList(result.failure));
 
- 
-
-
 // function colourAssociation(array){
 //   return array.map((item) => item.split(''))
 // }
@@ -147,7 +134,7 @@
 //     }
 //    return newArr.filter((elem, index) => index !== findIndef)
 //   }
-  
+
 // };
 
 // console.log(
@@ -155,7 +142,6 @@
 //     173, 180, 164, 270, 127, 62, 234, 153, 252, 316, 244, 385, 175,
 //   ])
 // );
-
 
 // function derDieDas(wort) {
 //   let sum = 0;
@@ -186,7 +172,6 @@
 
 // console.log(stray([2, 2, 1]));
 
-
 // function findShort(s){
 
 //    let toSplit = s.split(' ')
@@ -196,17 +181,15 @@
 // console.log(findShort("bitcoin take over the world maybe who knows perhaps"));
 
 // function highAndLow(numbers){
-  
+
 //   let array = numbers.split(' ').map(elem => +elem).sort((a,b) => a - b).reverse();
 
-    
 //  let toArr =  [array[0],array[array.length-1]];
-   
+
 //   return toArr.join(' ')
 //   }
 
 //   console.log(highAndLow("1 9 3 4 -5"));
-
 
 //   const arr = [1, 2, 3]
 //   console.log(...arr)
@@ -216,18 +199,15 @@
 
 //   for (let i = 0; i < coords.length; i++) {
 //     toString.splice(coords[i], 1);
-    
+
 //   }
 //   return toString.toString()
 // }
 
 // console.log(lastSurvivor("kbc", [1, 1]));
 
-
-
-
 // function  args_count ([arguments]) {
-//  console.log(arguments.length()); 
+//  console.log(arguments.length());
 // }
 
 // args_count(1,2,3)
@@ -242,11 +222,8 @@
 //   },
 // };
 
-
-
 // console.log( user["adress"]['city']['title']);
 // console.log(user.adress.city.title);
-
 
 // let city = {};
 // city.title = 'Berlin'
@@ -258,7 +235,6 @@
 // const name = ['Serg', 'Alexa', 'Elina', 'Ewa']
 // console.log(name['map']((elem) => elem));
 
-
 // const newObj = {
 //     '0': 'Molotok',
 //     '1': 'Kuwalda',
@@ -267,24 +243,20 @@
 
 // console.log(newObj[0]);
 
-
 // const sum = (...num) => {
 //   console.log(num.reduce((acc, num) => acc + num));
 // }
 
 // sum(1,2,3,4)
 
-
-
 // function multiplyAll (arrNumber)  {
 //    return function (multiply_all){
 //    return arrNumber.map(elem => elem * multiply_all)
 //    multiply_all(2)
 //    }
-   
+
 // }
 // console.log(multiplyAll([1,2,3]) );
-
 
 // function test (func) {
 //   console.log(func());
@@ -313,20 +285,16 @@
 //     }
 //   }
 
-
-
-
 // function minSum(arr) {
 //   let a = 0;
 
 //   for (let i = arr.length; (i = arr.length); i++) {
 //     a += arr.sort((a, b) => a - b).pop() * arr.shift();
 //   }
-//  return a 
+//  return a
 // }
 
 // console.log(minSum([5,4,2,3]));
-
 
 // function maxProduct(numbers, size) {
 //   return numbers
@@ -351,7 +319,6 @@
 
 // console.log(divCon(["3", 6, 6, 0, "5", 8, 5, "6", 2, "0"]));
 
-
 // let mispelled = function (word1, word2) {
 //   let a = 0;
 
@@ -368,7 +335,7 @@
 
 // function consecutive(arr) {
 //     arr.length ? Math.max(...arr) - Math.min(...arr) + 1 - arr.length : 0
-    
+
 //        }
 //        console.log(consecutive([4,8,6]));
 
@@ -378,22 +345,20 @@
 //   }
 //   console.log(largest(2,[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]));
 
-
 // const count = true;
 
 // let countValue = new Promise(function (resolve, reject) {
 //     if (count) {
 //       setTimeout(() => {resolve("There is a count value.");}
-        
+
 //       )
-        
+
 //     } else {
 //         reject("There is no count value");
 //     }
 // });
 
 // console.log(countValue);
-
 
 // const delay = (ms) => {
 //   return new Promise((res)=> {
@@ -404,7 +369,6 @@
 // delay(2000).then(()=> {
 //   console.log('done');
 // })
-
 
 // function isPowerOfTwo(n) {
 //   return Number.isInteger(Math.log2(n));
@@ -422,7 +386,7 @@
 
 // function trim(str, size) {
 // if(size <= 3){
-//   return str.slice(0,str.length - size)+('...')  
+//   return str.slice(0,str.length - size)+('...')
 // }else if(str.length < size){
 //   return str
 // }else if(str.length > size){
@@ -434,3 +398,168 @@
 
 //  let a= "He"
 //  console.log(a.slice(0,1));
+
+// let a = 1;
+// let b = 2;
+// let c = 0;
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// setTimeout(()=> {
+//     console.log(c = a+ b);
+// },5000)
+
+// function sumEvenNumbers(input) {
+//   if(input.length === 0 ) return 0
+//   return input.filter(el => el % 2 === 0).reduce((acc, num) => {
+//     acc += num
+//     return acc
+//   })
+// }
+
+// function dotCalculator(equation) {
+//   let findSymbol = equation.split(" ");
+//   const m = findSymbol[1];
+
+//   const firstArr = [];
+//   const secondArr = [];
+//   console.log(m);
+
+//   for (let i = 0; i < findSymbol[0].length; i++) {
+//     firstArr.push(findSymbol[0][1]);
+//   }
+//   for (let j = 0; j < findSymbol[2].length; j++) {
+//     secondArr.push(findSymbol[2][1]);
+//   }
+//   let a = firstArr.length;
+//   let b = secondArr.length;
+//   let finaly;
+
+//   console.log(m =='//')
+ 
+//   if(m == '//'){
+//      finaly = Math.floor(eval(`${a} / ${b}`));
+//      console.log(finaly);
+//   }else  {finaly = eval(`${a} ${m} ${b}`)}
+//   const newArr = [];
+//   for (let k = 0; k < finaly; k++) {
+//     newArr.push(".");
+//   }
+//   return newArr.join("");
+// }
+
+// console.log(dotCalculator("............. // ..."));
+
+
+
+
+// function User(name, id) {
+//     this.name = name;
+//     this.id = id;
+//     this.humam = true;
+//     this.hello = function (){
+//       console.log('Hello' + this.name);
+//     }
+// }
+
+
+// User.prototype.exit = function(){
+//     console.log(this.name + 'Will schlafen');
+// }
+// const se = new User('Serghei', 03)
+
+// const al = new User('Aleksa',12)
+
+// se.hello()
+// al.exit()
+
+
+
+// function alternate(n, firstValue, secondValue){
+//   const finalArr = [];
+//   for(let i = 0 ; i < n; i++){
+//     if(n == 0){
+//       return finalArr
+//     }
+//    else if(i % 2 == 0){
+//       finalArr.push(firstValue)
+//     }else{
+//       finalArr.push(secondValue)
+//     }
+//   }
+// return finalArr
+// }
+
+// console.log(alternate(5,'blue','red'));
+
+// const  duplicates = (arr) =>  {
+//  const newArr =  arr.filter((number, index, numbers) => 
+  
+//     numbers.indexOf(number) !== index)
+    
+//     const twoArr = (newArr) => [...new Set(newArr)];
+//      return twoArr
+// }
+
+// console.log(duplicates([1, 2, 4, 4, 3, 3, 1, 5, 3, "5"]));
+
+
+
+
+
+// const values = [1, 100, 5, 6, 13, 13,13, 22, 5];
+// // предположим, что у нас есть числовой массив
+// const duplicates = values.filter((number, index, numbers) => {
+// // console.log(number+'это элемент'); // number - элемент массива
+// console.log(index+'Это индекс'); // index - индекс элемента массива
+// console.log(numbers.indexOf(number))
+// return numbers.indexOf(number) !== index;
+// });
+
+// console.log(duplicates);
+
+
+// function duplicates(arr) {
+//    const uniqSet = new Set();
+//     for (let i = 0; i < arr.length; i++) {
+//         for (let j = 0; j < i; j++)
+//         if (arr[j] === arr[i]) {
+//             uniqSet.add(arr[i])
+//         }
+//     }
+    
+//     const uniq = Array.from(uniqSet)
+//     return uniq
+// }
+
+// console.log(duplicates([1, 2, 4, 4, 3, 3, 1, 5, 3, "5"]));
+
+
+
+
+
+// const sumSquareEvenRootOdd = ns => {
+//   const newArr = [];
+//   for(let i = 0; i  < ns.length; i++){
+   
+//     if(ns[i]%2==0){
+//         newArr.push(ns[i]**2)
+//     }else{
+//       newArr.push(Math.sqrt(ns[i]))
+//     }
+    
+//   }
+//   return  +( newArr.reduce((acc,el) => acc+=el).toFixed(2))
+// };
+
+// console.log(sumSquareEvenRootOdd([4,5,7,8,1,2,3,0]))
+
+
+
+
+
+
+
+ 
